@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How to use LaTeX Plugin.md",
+                "file": "Personal Gabe Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to use LaTeX Plugin"
+              "title": "Personal Gabe Notes"
             }
           }
         ]
@@ -172,8 +172,9 @@
   "active": "c487fb910e4740be",
   "lastOpenFiles": [
     "Project Overall.md",
-    "How to use LaTeX Plugin.md",
+    "Personal Gabe Notes.md",
     "Part B.md",
+    "How to use LaTeX Plugin.md",
     "create a link.md"
   ]
 }
