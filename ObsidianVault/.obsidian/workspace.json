@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal Gabe Notes.md",
+                "file": "Part B.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Personal Gabe Notes"
+              "title": "Part B"
             }
           }
         ]
@@ -171,10 +171,11 @@
   },
   "active": "c487fb910e4740be",
   "lastOpenFiles": [
-    "Project Overall.md",
+    "PartBGraphV1.jpg",
     "Personal Gabe Notes.md",
     "Part B.md",
     "How to use LaTeX Plugin.md",
+    "Project Overall.md",
     "create a link.md"
   ]
 }
