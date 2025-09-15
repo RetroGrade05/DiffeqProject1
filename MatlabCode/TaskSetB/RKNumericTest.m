@@ -36,17 +36,36 @@ for i = 1 : npts+1
     Ttrue(i) = dtrue(ttrue(i));
 end
 
+%% Calculation of error over time
+% Error Matrix
+Err = zeros(1, npts+1);
+
+% Error Equation
+for i = 1 : npts+1
+    Err(i) = 100 * (Ttrue(i) - Test(i))/Ttrue(i);
+end
+
 
 %% Plotting
-% Plot of the estimate
 figure
+tiledlayout
+nexttile
+% T of t graph
 pest = plot(test,Test,"-o");
+fontsize(25,"points")
+title("Graph of Estimate and Truth","FontSize",30)
+xlabel("Time in hours")
+ylabel("Temperature in Fahrenheight")
 pest.Color = '#cc2f59';
 pest.MarkerSize = 10;
-fontsize(25,"points")
-title("Estimated Value","FontSize",30)
-xlabel("Time in Hours")
-ylabel("Temperature in Farenheight")
 hold on;
 ptrue=plot(ttrue,Ttrue);
 ptrue.Color = '#2fcc4e';
+hold off
+nexttile
+% Error Graph
+perror = plot(test, Err);
+fontsize(25,"points")
+title("Error of Estimate","FontSize",30)
+xlabel("Time in hours")
+ylabel("% Error")
