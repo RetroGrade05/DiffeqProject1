@@ -1,0 +1,2 @@
+## Goal:
+To have an in-depth understanding of the differential equation used to model the temperature of the building, how changing it's components affects the rate of change of temperature, and find it's equilibrium solution, general solutions, and what they imply for the temperature inside this building.
