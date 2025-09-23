@@ -11,14 +11,10 @@
             "id": "9599e11acf7e951c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ObsidianVault/Part A.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Part A"
+              "title": "New tab"
             }
           }
         ]
@@ -180,12 +176,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9599e11acf7e951c",
+  "active": "89129ee1d0233fdd",
   "lastOpenFiles": [
-    "ObsidianVault/Part B.md",
-    "ObsidianVault/How to use LaTeX Plugin.md",
-    "ObsidianVault/Part A.md",
     "Untitled 1.base",
-    "Untitled.base"
+    "Untitled.base",
+    "ObsidianVault/Part A.md",
+    "ObsidianVault/Part B.md",
+    "ObsidianVault/How to use LaTeX Plugin.md"
   ]
 }

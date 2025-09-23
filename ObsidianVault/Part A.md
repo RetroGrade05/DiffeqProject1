@@ -38,4 +38,3 @@ Since $$\lim_{ t \to \infty } T(t) = M $$ for $$ t \in \mathbb{R}$$$$T(t) = M$$i
 
 This implies that **the temperature within the building would eventually be the same as that of the ambient temperature.**
 
-testing testing 1 2 3
