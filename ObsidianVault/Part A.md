@@ -37,3 +37,5 @@ $$T> M:\frac{dT}{dt}<0$$
 Since $$\lim_{ t \to \infty } T(t) = M $$ for $$ t \in \mathbb{R}$$$$T(t) = M$$is a stable equilibrium solution. 
 
 This implies that **the temperature within the building would eventually be the same as that of the ambient temperature.**
+
+testing testing 1 2 3
