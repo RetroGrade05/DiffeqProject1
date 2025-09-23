@@ -11,10 +11,14 @@
             "id": "9599e11acf7e951c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ObsidianVault/Part A.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Part A"
             }
           }
         ]
@@ -176,8 +180,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "89129ee1d0233fdd",
+  "active": "cb6ccc58dbfe5503",
   "lastOpenFiles": [
+    "MatlabCode/Project1_TaskSetA.mlx",
     "Untitled 1.base",
     "Untitled.base",
     "ObsidianVault/Part A.md",
