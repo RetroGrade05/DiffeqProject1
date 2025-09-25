@@ -4,7 +4,6 @@ clear;
 
 % Simulation parameters
 Td = 77;             % Thermostat setpoint
-C = 10;              % Thermal capacitance
 t0 = 0;
 tf = 30;
 dt = 0.1;
@@ -30,7 +29,7 @@ for i = 1:4
     style = cases{i,3};
     label = cases{i,4};
 
-    k = kappa_d / C;
+    k = kappa_d;
 
     % Initialize temperature vector
     T = zeros(1, N);
