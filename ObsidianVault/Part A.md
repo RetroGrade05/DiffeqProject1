@@ -30,11 +30,33 @@ $$T = \frac{\int{e^{\kappa t}[\kappa M(t)+H(t)+Q(t)]dt + C}}{e^{\kappa t}}$$
 The DE has equilibrium solutions if $$\frac{dT}{dt}=0$$
 Therefore: $$\kappa[M-T(t)]=0$$
 This happens if: $$ T(t)=M$$
-### Analyzing stability of Equilibrium Solutions:
+#### Analyzing stability of Equilibrium Solutions:
 $$T< M:\frac{dT}{dt}>0$$
 
 $$T> M:\frac{dT}{dt}<0$$
 Since $$\lim_{ t \to \infty } T(t) = M $$ for $$ t \in \mathbb{R}$$$$T(t) = M$$is a stable equilibrium solution. 
 
 This implies that **the temperature within the building would eventually be the same as that of the ambient temperature.**
+#### General Solution specific to the building:
+We have $$ H(t) = 0 $$$$ Q(t) = 0 $$$$ M(t) = M $$
+Plugging in to the general solution we found earlier we find the specific solution: 
 
+$$T(t) = M + (T_{0}-M)e^{kt_{0}}e^{-kt}$$
+
+We verify this solution with MATLAB:
+![[4e.jpg]]
+We see that solution curves approaches M as time goes on, therefore M is a stable equilibrium solution, and our specific solution is correct.
+
+#### Effect of 𝜅 on solutions
+ 
+![[4f.jpg]]
+From the graph, we can see that **while changing 𝜅 does not affect the equilibrium solution, the rate of change of temperature is changed: a bigger 𝜅 implies a greater rate of change, and vice versa**. The quality of the building’s insulation could change 𝜅, with quality insulation resulting in a slower heat loss (smaller 𝜅), and poor insulation resulting in a sharper decrease in temperature (larger 𝜅).
+
+#### Time constant
+We have the original solution:  $$T(t) = M + (T_{0}-M)e^{kt_{0}}e^{-kt}$$“The difference between the building’s temperature and the outside temperature is $$e^{-1}$$ of the initial difference." Therefore: $$T(t) - M = e^{-1}(T_{0}-M_{0})$$
+Using the general solution, we have:$$e^{-1}(T_{0}-M_{0}) = (T_{0}-M)e^{kt_{0}}e^{-kt}$$
+Therefore: $$e^{-1} = e^{kt_{0}}e^{-kt}$$
+So: $$-1=k\Delta t$$
+$$\Delta t = \frac{-1}{k}$$
+Since the time constant resembles the change in time, the units should be hours
+We saw from our graph that a smaller 𝜅 implies smaller heat loss. Since t is inversely proportional to 𝜅, it can be inferred that a larger t would slow the building’s response to outside temperature; therefore, **we want a larger time constant**
