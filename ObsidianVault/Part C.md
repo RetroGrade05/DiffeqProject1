@@ -1,0 +1,14 @@
+### Goal:
+* Now that our initial function has been solved and our numerical estimation, we can begin to factor in additional components. Our original model assumes a model of constant temperature, not accounting for the varying temperature that our system actually experiences. 
+### Methods:
+* To get better measurements, we will adjust our system to factor in the fluctuation of the external temperature, with two different models depicting individual seasons. We will assume a sinusoidal oscillation with a range of 24 degrees, and a variable starting temperature $M_{0}$, being 75 in the summer and 35 in the winter. We can then plug in this variable temperature $T_{out}(t)$ to our initial equation $\frac{dT}{dt}(t)=0.25(T_{out}-T)$ and solve to get our complimentary internal temperature. We would also like to find our maximum values of our graphs to the minute precision.
+
+### Technical Approach
+ * For our main model, $T_{out}(t)=M_{0}-12\cos\left( \frac{\pi(t-f)}{12} \right), T(0)=65$. In our summer system, plugging in $M_{0}=75$, and solving the differential equation (proof in appendix  $Fig C_{1}$), we get the equation $T(t)=75-14.3e^{-t/4}-\frac{36}{9+\pi^{2}}(3\cos(\theta)+\pi \cos(\theta))$, where $\theta=\frac{\pi(t-5)}{12}$. From plotting these two equations in Matlab, we get: ![[PartCPlot1.png]]
+ * By plotting over a range of $24hours*60min$, we get a precision of minutes, and can output our max and min values from the range with the function, getting:   *Inside temperature: Minimums and Maxs of 64.56 and 83.19 at 6:58 and 20:08  Outside temperature: Minimums and Maxs of 63.00 and 87.00 at 5:00 and 16:59* 
+ * We want to also get a representation of this data in the winter, so we resolve with $M_{0}=35$. We modified the matlab code to be flexible, taking in any $M_{0}$ as a perameter of the equation, and then inputted C into our $T(t)$ equation (work in $FigC_{2}$) to get![[PartCPlot2.png]]![[PartCScreenshot.png]]
+
+### Results
+* We can observe that the inside temperature is slightly out of phase with the out, in addition to having a lower amplitude. Its minimums and maximums also occur at intersections with the outside temperature, as $T_{out}-T_{in}=0=\frac{dT}{dt}$. 
+* In both cases, $F(t)$ trends towards $M(t)$ initially, before reaching a sort of phase equilibrium with it after the first few hours. You can see this especially well with the graph extending up to a week ![[PartCPlot3.png]] as over time the wave of internal temperature stabalizes. This results from the fact that as $t\to \infty, Ce^{-t/4}\to 0$, and as a result $$T(t,C)=M_{0}-Ce^{-t/4}-\frac{36}{9+\pi^{2}}(3\cos(\theta)+\pi \cos(\theta))$$ approaches $$T(t)=M_{0}-\frac{36}{9+\pi^{2}}(3\cos(\theta)+\pi \cos(\theta))$$ which is a constantly oscillating function. This also means that the initial value of T becomes irrelevant over time, and no matter how hot it is it will eventually reach the same posture. 
+

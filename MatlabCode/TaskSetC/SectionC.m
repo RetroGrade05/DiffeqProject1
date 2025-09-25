@@ -1,0 +1,46 @@
+clear;close;clc;
+%% Section C graphing:
+%% Variables
+% Variables of the calculation range:
+ti = 0; % t initial
+tf = 24; % t final
+npts = 240; % step count
+t = linspace(ti,tf,npts); % full t range for output
+
+%% M(t) calculation
+% Function
+function Tm = Tout(t, Mo)
+    Tm = Mo - 12*cos(pi*((t-5)/12));  
+end
+
+% Matrix
+M = Tout(t,75);
+
+%% T(t) calculation
+% Function
+function T = Tin(t)
+    theta = (pi*(t-5))/12;
+    Th = 14.3*exp(-1*(t/4));
+    Tp = (36/(9+(pi^2)))*(3*cos(theta)+pi*sin(theta));
+    T = 75-Th-Tp;
+end
+
+% Matrix
+T = Tin(t);
+
+%% Critical points
+[Tmin, tmin] = min(T);
+[Tmax, tmax] = max(T);
+
+%% Plotting
+figure
+hold on 
+ToutPlot = plot(t,M,":r");
+TinPlot = plot(t,T,"-b",LineWidth=3,MarkerSize=10);
+TminPlot = plot(t(tmin),Tmin,"oG",MarkerSize=30,LineWidth=3);
+TmaxPlot = plot(t(tmax),Tmax,"oW",MarkerSize=30,lineWidth=3);
+xlabel("Time")
+ylabel("*F")
+fontsize(32,"points")
+legend("Outside Temperature","Inside Temperature","Min temp","Max temp")
+hold off
