@@ -3,7 +3,6 @@ clc;
 clear;
 
 % Parameters
-C = 10;                     % Thermal capacitance
 T0 = 65;                    % Initial temperature
 t0 = 0;                     % Initial time
 tf = 24;                    % Final time
@@ -20,7 +19,7 @@ H = @(t) 7 * sech((3/4)*(t - 10));    % Heat from people/lights/machines
 %       ^^^  Change first value to modify input heat sources
 
 % Define derivative function dT/dt
-dTdt = @(t, T) (1/C) * H(t);          % No losses, only accumulation
+dTdt = @(t, T) H(t);          % No losses, only accumulation
 
 % RK4 Integration
 for i = 1:N
@@ -44,14 +43,34 @@ fprintf('Time of maximum temperature: %.2f hours\n', time_max_T);
 
 % Plot the result
 figure;
+y_max = max_T + 5; 
 
 % Plot temperature T(t)
 subplot(2, 1, 1);
 plot(t, T, 'b-', 'LineWidth', 2);
 xlabel('Time (Hours)');
 ylabel('Temperature [°F]');
-title('Building Temperature from Internal Heat Sources (RK4)');
+title('Building Temperature from Internal Heat Sources');
+xlim([0 24]);        % Fix x-axis to 0–24 hours
+ylim([min(T)-1, y_max]);  % Pad lower limit slightly for visibility
 grid on;
+
+% Add a red area to denote unsafe temps
+hold on;
+y_fill = 81 * ones(size(t));
+y_max = max(T) + 5; 
+fill([t, fliplr(t)], [y_fill, y_max * ones(size(t))], ...
+     'r', 'FaceAlpha', 0.2, 'EdgeColor', 'none');
+hold off;
+
+% Add text to the graph where max temp occurs
+hold on; % Keep the current plot
+plot(time_max_T, max_T, 'ro'); % Mark the max temperature point
+time_hours = floor(time_max_T); % Get the integer hours
+time_minutes = round((time_max_T - time_hours) * 60); % Round minutes to nearest integer
+text(time_max_T, max_T, sprintf('Max: %.2f°F at t=%d hrs %d min', max_T, time_hours, time_minutes), ...
+    'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right');
+hold off; % Release the plot
 
 % Plot H(t) for comparison
 
