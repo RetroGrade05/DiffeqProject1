@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part B.md",
+                "file": "Part A.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part B"
+              "title": "Part A"
             }
           },
           {
@@ -201,18 +201,20 @@
   "active": "2876c65735a93b56",
   "lastOpenFiles": [
     "Part C.md",
-    "ErrorPlot.jpg",
     "Draft Writeup.md",
+    "ErrorPlot.jpg",
+    "Project Overall.md",
+    "Part B.md",
+    "Part A Condensed for Writeup.md",
     "Personal Gabe Notes.md",
+    "Part A.md",
     "PartCScreenshot.png",
-    "PartCPlot1.png",
     "PartCPlot3.png",
     "PartCPlot2.png",
-    "Part B.md",
-    "How to use LaTeX Plugin.md",
+    "PartCPlot1.png",
     "PartBGraphV1.jpg",
+    "How to use LaTeX Plugin.md",
     "PartCPlot1 1.png",
-    "Project Overall.md",
     "create a link.md"
   ]
 }
