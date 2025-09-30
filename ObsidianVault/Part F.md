@@ -1,5 +1,7 @@
-## Nghi
+## Including Devices (ACs & Furnaces)
 With active ACs & furnaces, the maximum temperature inside the building depends on how powerful these devices are. 
+
+We use a MATLAB code to model how these devices affect the building temperature
 
 ![[PartFPlot3.jpg]]
 
