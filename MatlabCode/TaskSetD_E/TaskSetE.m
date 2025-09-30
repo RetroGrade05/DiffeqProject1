@@ -5,7 +5,7 @@ clear;
 % Simulation parameters
 Td = 77;             % Thermostat setpoint
 t0 = 0;
-tf = 30;
+tf = 24;
 dt = 0.1;
 t = t0:dt:tf;
 N = length(t);
