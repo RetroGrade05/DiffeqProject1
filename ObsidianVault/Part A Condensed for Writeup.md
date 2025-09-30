@@ -6,4 +6,4 @@ Before solving, it is useful to analyze if this function has a solution using **
 
 We solve this equation using the integrating factor method and get the following solutions from two IVPs: $T(0)=50$ and $T(0)=80$ 
 
-![[ObsidianVault/PartAPlot1.jpg]]and get ==Insert equation here== 
+![[ObsidianVault/PartAPlot1.jpg]]and get $T(t) = M + (T_{0}-M)e^{kt_{0}}e^{-kt}$

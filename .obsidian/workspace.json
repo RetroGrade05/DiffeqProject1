@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ObsidianVault/Draft Writeup.md",
+                "file": "ObsidianVault/Part B.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Draft Writeup"
+              "title": "Part B"
             }
           }
         ]
@@ -182,36 +182,37 @@
   },
   "active": "9599e11acf7e951c",
   "lastOpenFiles": [
-    "ObsidianVault/Part F.md",
-    "ObsidianVault/Part A Condensed for Writeup.md",
-    "ObsidianVault/Part A.md",
+    "MatlabCode/TaskSetB/RKNumericTest.pdf",
     "ObsidianVault/Part C.md",
-    "MatlabCode/TaskSetA/Project1_TaskSetA.pdf",
+    "MatlabCode/TaskSetB/RKNumericTest.mlx",
+    "Images/PartCPlot1.png",
+    "Images/PartCPlot3.png",
+    "Images/PartCPlot2.png",
+    "ObsidianVault/Part F.md",
+    "MatlabCode/TaskSetC/SectionC.pdf",
+    "MatlabCode/TaskSetC/SectionC.mlx",
+    "MatlabCode/TaskSetD_E/TaskSetE.pdf",
+    "MatlabCode/TaskSetD_E/TaskSetD.pdf",
+    "MatlabCode/TaskSetF/TaskSetF.pdf",
+    "Images/PartFPlot2.jpg",
+    "Images/PartFPlot1.jpg.~tmp",
+    "Images/PartFPlot1.jpg",
+    "ObsidianVault/Part A Condensed for Writeup.md",
+    "ObsidianVault/Part A Old.md",
+    "ObsidianVault/How to use LaTeX Plugin.md",
+    "ObsidianVault/ErrorPlot.jpg",
     "ObsidianVault/Draft Writeup.md",
+    "MatlabCode/TaskSetA/Project1_TaskSetA.pdf",
     "Untitled.base",
     "ObsidianVault/Part B.md",
-    "ObsidianVault/ErrorPlot.jpg",
     "Images/PartFPlot4.jpg.~tmp",
     "Images/PartFPlot4.jpg",
-    "Images/PartFPlot3.jpg.~tmp",
     "Images/PartF_Time_Results.jpg",
     "Pasted image 20250928132039.png",
     "Images/PartFPlot3.jpg",
-    "MatlabCode/TaskSetF/TaskSetF.mlx",
-    "MatlabCode/TaskSetD_E/TaskSetE.mlx",
-    "MatlabCode/TaskSetD_E/TaskSetD.mlx",
-    "Images/PartBGraphV1.jpg",
-    "Images/PartAPlot1.jpg",
-    "Images/PartAPlot2.jpg",
-    "MatlabCode/TaskSetA/Project1_TaskSetA.mlx",
-    "MatlabCode/TaskSetA",
-    "ObsidianVault/PartAPlot2.jpg",
-    "ObsidianVault/PartAPlot1.jpg",
-    "MatlabCode/TaskSetF/TaskSetF.m",
     "[[ObsidianVault/TaskA4e.jpg.md",
     "ObsidianVault/Project Overall.md",
     "ObsidianVault/Personal Gabe Notes.md",
-    "README.md",
-    "ObsidianVault/How to use LaTeX Plugin.md"
+    "README.md"
   ]
 }
