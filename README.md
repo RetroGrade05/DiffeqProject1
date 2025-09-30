@@ -1,5 +1,5 @@
 # DiffeqProject1
-This is the Repo for Gabe, Ngi, and Carson's Diffeq Project 1. 
+This is the Repo for Gabe, Nghi, and Carson's Diffeq Project 1. 
 
 The Repo is broken into a Matlab folder and an ObsidianVault folder. The Obsidian vault acts as our documentation, to be viewed with Obsidian and the LaTeX Suite Plugin
 
