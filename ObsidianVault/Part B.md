@@ -5,7 +5,7 @@
    
    This is an approximation, but operates off the principles that guide the definition of a derivative: $$\lim_{ h \to 0 } \frac{f(x+h)-f(x)}{h}$$in that the estimate approaches the actual equation as our intervals (h) approach 0. We can cut down h by simply calculating more steps over the same interval, getting higher accuracy at the cost of compute power. Think of it like if you stretched out a human costume over the rough shape of a human and then had a lizard person climb into it, it would roughly approximate a human with an imperceptible error. Our goal is to balance speed with accuracy, tuning h to meet our criteria and comparing our answers to a solvable differential equation to measure accuracy
 
-### Technical Approach
+### Technical Approach 
    First, we need a test differential equation in matlab to test our code against. We are using $\frac{dT}{dt}=0.25(75-T), T(0)=50$ as this sample equation. We are given the RK4.m function to work with as well, which takes in $t_{0},t_{f},n,y_{0},f(t)$ as variables. As such, the only function we really need to introduce is $\frac{dT}{dt}$ .  After completion, we get a full graph of the estimation of the equation.
    
    After this, we need to compare the error to the actual solution of the differential equation. Luckily our original equation is very easily differentiable, so we can compare a graph of it directly. Plotting $T=75-25e^{-\frac{t}{4}}$ alongside our graph, we get: ![[PartBGraphV1.jpg]] At this scale the values look almost entirely identical. Looking at the % deviation of the estimate from the actual value gives a closer view of the actual error: ![[ErrorPlot.jpg]] Where the error is on the order of $10^{-8}$%, almost entirely negligible.
