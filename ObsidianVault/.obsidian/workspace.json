@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Draft Writeup.md",
+                "file": "Part C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Draft Writeup"
+              "title": "Part C"
             }
           }
         ],
@@ -198,19 +198,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "2876c65735a93b56",
+  "active": "a3207723cecfc059",
   "lastOpenFiles": [
-    "PartAPlot2.jpg",
-    "PartAPlot1.jpg",
     "Part F.md",
     "Part C.md",
+    "Part A Condensed for Writeup.md",
+    "Part B.md",
+    "Part A.md",
     "Draft Writeup.md",
+    "PartAPlot2.jpg",
+    "PartAPlot1.jpg",
     "ErrorPlot.jpg",
     "Project Overall.md",
-    "Part B.md",
-    "Part A Condensed for Writeup.md",
     "Personal Gabe Notes.md",
-    "Part A.md",
     "PartCScreenshot.png",
     "PartCPlot3.png",
     "PartCPlot2.png",
