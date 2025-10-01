@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ObsidianVault/Part A Condensed for Writeup.md",
+                "file": "ObsidianVault/Draft Writeup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part A Condensed for Writeup"
+              "title": "Draft Writeup"
             }
           }
         ]
@@ -182,34 +182,34 @@
   },
   "active": "9599e11acf7e951c",
   "lastOpenFiles": [
-    "ObsidianVault/Part A.md",
-    "ObsidianVault/Part A Condensed for Writeup.md",
     "ObsidianVault/Part F.md",
+    "ObsidianVault/Draft Writeup.md",
+    "MatlabCode/TaskSetB/RKNumericTest.pdf",
+    "MatlabCode/All_Codes.pdf",
+    "MatlabCode/TaskSetB/SectionC.pdf",
+    "MatlabCode/TaskSetB/SectionC.mlx",
+    "ObsidianVault/Part A Condensed for Writeup.md",
+    "Images/PartFPlot2_White.jpg",
+    "Images/PartFPlot1_White.jpg",
+    "ObsidianVault/Part A.md",
     "MatlabCode/TaskSetF/TaskSetF_White.pdf",
     "Images/PartFPlot4_White.jpg",
     "Images/PartFPlot3_White.jpg",
-    "Images/PartFPlot2_White.jpg",
     "ObsidianVault/Part B.md",
     "MatlabCode/TaskSetF/TaskSetF.pdf",
     "MatlabCode/TaskSetD_E/TaskSetD.pdf",
     "MatlabCode/TaskSetD_E/TaskSetE.pdf",
-    "MatlabCode/TaskSetB/RKNumericTest.pdf",
     "SupplimentalMaterials/Project1Scratch.pdf",
     "SupplimentalMaterials",
     "ObsidianVault/Part C.md",
-    "MatlabCode/TaskSetB/RKNumericTest.mlx",
     "Images/PartCPlot1.png",
     "Images/PartCPlot3.png",
     "Images/PartCPlot2.png",
-    "MatlabCode/TaskSetC/SectionC.pdf",
-    "MatlabCode/TaskSetC/SectionC.mlx",
     "Images/PartFPlot2.jpg",
     "Images/PartFPlot1.jpg",
     "ObsidianVault/Part A Old.md",
     "ObsidianVault/How to use LaTeX Plugin.md",
     "ObsidianVault/ErrorPlot.jpg",
-    "ObsidianVault/Draft Writeup.md",
-    "Images/PartFPlot4.jpg",
     "[[ObsidianVault/TaskA4e.jpg.md",
     "ObsidianVault/Project Overall.md",
     "ObsidianVault/Personal Gabe Notes.md",
