@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part C.md",
+                "file": "Part A.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part C"
+              "title": "Part A"
             }
           }
         ],
@@ -198,17 +198,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "a3207723cecfc059",
+  "active": "2876c65735a93b56",
   "lastOpenFiles": [
-    "Part F.md",
-    "Part C.md",
     "Part A Condensed for Writeup.md",
     "Part B.md",
-    "Part A.md",
+    "Part C.md",
+    "Part F.md",
     "Draft Writeup.md",
+    "ErrorPlot.jpg",
+    "How to use LaTeX Plugin.md",
+    "Part A.md",
     "PartAPlot2.jpg",
     "PartAPlot1.jpg",
-    "ErrorPlot.jpg",
     "Project Overall.md",
     "Personal Gabe Notes.md",
     "PartCScreenshot.png",
@@ -216,7 +217,6 @@
     "PartCPlot2.png",
     "PartCPlot1.png",
     "PartBGraphV1.jpg",
-    "How to use LaTeX Plugin.md",
     "PartCPlot1 1.png",
     "create a link.md"
   ]

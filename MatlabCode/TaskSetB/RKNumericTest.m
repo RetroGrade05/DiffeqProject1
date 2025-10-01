@@ -52,7 +52,7 @@ tiledlayout
 nexttile
 % T of t graph
 pest = plot(test,Test,"-o");
-fontsize(25,"points")
+fontsize(15,"points")
 title("Graph of Estimate and Truth","FontSize",30)
 xlabel("Time in hours")
 ylabel("Temperature in Fahrenheight")
@@ -65,7 +65,7 @@ hold off
 nexttile
 % Error Graph
 perror = plot(test, Err);
-fontsize(25,"points")
+fontsize(15,"points")
 title("Error of Estimate","FontSize",30)
 xlabel("Time in hours")
 ylabel("% Error")
