@@ -9,7 +9,7 @@ We are provided an IVP to find $\frac{dT}{dt}$ with $H(t)$ considered: $\frac{dT
 Air conditioners are critical to ensure the equipment within the building functioning smoothly. We prove this by simulating the same building on a hot weekend day, but without any machinery or air conditioning, which means $H(t)=Q(t)=0$. We model this using our given IVP: $\frac{dT}{dt}=0.25{85-10\cos[\frac{\pi(t-5)}{12}]-T}$, $T(0)=75$ 
 
 ![[PartFPlot2_White.jpg]]
-Using our MATLAB code, we see that the temperature crosses the threshold 81F at 12:09PM, and remains above the threshold throughout the day, with the highest temperature being 91.82F at 8:06PM. So AC is definitely important!
+Using our MATLAB code, we see that the temperature crosses the threshold 81$^{\circ}F$ at 12:09PM, and remains above the threshold throughout the day, with the highest temperature being 91.82$^{\circ}F$ at 8:06PM. So AC is definitely important!
 ## Including Devices (ACs & Furnaces)
 With active ACs & furnaces, the maximum temperature inside the building depends on how powerful these devices are. 
 
@@ -17,8 +17,8 @@ We use a MATLAB code to model how these devices affect the building temperature
 
 ![[PartFPlot3_White.jpg]]
 
-If the devices have a scaling factor $\kappa_{d}=2$, the maximum temperature is 78.99F
-If the devices have a scaling factor $\kappa_{d}=0.5$, the maximum temperature is 82.1F
+If the devices have a scaling factor $\kappa_{d}=2$, the maximum temperature is 78.99$^{\circ}F$
+If the devices have a scaling factor $\kappa_{d}=0.5$, the maximum temperature is 82.1$^{\circ}F$
 
 ![[Pasted image 20250928132039.png]]
 
