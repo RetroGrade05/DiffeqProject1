@@ -26,6 +26,6 @@ H_{j+1} &= H_j + \tfrac{1}{6}\left(k_1 + 2k_2 + 2k_3 + k_4\right).
 \end{align*}
 $$
 * Now using this to format our MATLAB code, we can simulate the estimated heating effects of building usage, without temperature control systems. After running this we are left with the output of the following graphs:
-![[Figure_1.png]]
+![[TaskDFigure1.png]]
   In these two graphs, we can see the overall temperature in the building (top) and the active usage of the building (bottom). On the top we can also see the outputted max temperature of 94.31 F, which is shown to occur right at the 24 hour mark, which is the limit for where we are focused as it is one full day. We can think of the top graph, which shows our estimation for H(t), to represent the total heat buildup within a building, as our model currently only accepts inputs from interior heating and has no way to dissipate that heat. We are later given a constraint that states that equipment inside will be damaged by the heat should it rise above 81 F, so that 'no go' area is shown here as the area above 81 on the y-axis.
   
